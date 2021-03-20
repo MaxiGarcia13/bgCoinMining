@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace;
+    line-height: 1.5;
+}
+
+body,
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #50fa7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 img {
+    height: 80px;
+    width: 80px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    border: 1px solid #ffb86c;
+    max-width: 600px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #282a36;
+    padding: 0 1rem;
+}
